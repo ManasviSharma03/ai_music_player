@@ -1,3 +1,30 @@
+# Local ignores
 __pycache__/
 emotion_log.csv
 *.pyc
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs and DB
+*.log
+*.sqlite3
